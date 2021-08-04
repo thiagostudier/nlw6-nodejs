@@ -13,7 +13,8 @@ node index.ts
 
 yarn tsc --init
 yarn tsc
-```
 
 yarn add express
 yarn add @types/express
+```
+
