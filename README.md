@@ -39,5 +39,8 @@ yarn typeorm migration:run
 yarn typeorm migration:revert
 
 yarn typeorm entity:create -n User
+
+yarn add express-async-errors
+
 ```
 
