@@ -44,3 +44,10 @@ yarn add express-async-errors
 
 ```
 
+Criar as TAGS
+
+```
+yarn typeorm migration:create -n CreateTags
+
+yarn typeorm migration:run
+```
