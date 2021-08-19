@@ -51,3 +51,11 @@ yarn typeorm migration:create -n CreateTags
 
 yarn typeorm migration:run
 ```
+
+yarn migration:create -n AlterUserAddPasswordyarn
+
+yarn add bcryptjs
+
+yarn add @types/bcryptjs -D
+
+yarn add jsonwebtoken
