@@ -45,17 +45,27 @@ yarn add express-async-errors
 ```
 
 Criar as TAGS
-
 ```
 yarn typeorm migration:create -n CreateTags
 
 yarn typeorm migration:run
 ```
 
+Adicionar senha ao usuário
+```
 yarn migration:create -n AlterUserAddPasswordyarn
+```
 
+Adicionar bibliotecas de autenticação 
+```
 yarn add bcryptjs
 
 yarn add @types/bcryptjs -D
 
 yarn add jsonwebtoken
+```
+
+Adicionar tabela dos elogios
+```
+yarn typeorm migration:create -n CreateCompliments
+```
