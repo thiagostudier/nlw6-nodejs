@@ -69,3 +69,8 @@ Adicionar tabela dos elogios
 ```
 yarn typeorm migration:create -n CreateCompliments
 ```
+
+Nova biblioteca: Class-Transformer
+```
+yarn add class-transformer
+```
