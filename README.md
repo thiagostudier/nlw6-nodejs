@@ -78,3 +78,12 @@ Nova biblioteca: Class-Transformer
 ```
 yarn add class-transformer
 ```
+
+Instalar o Cors
+```
+yarn add cors
+
+yarn add @types/cors -D
+```
+
+

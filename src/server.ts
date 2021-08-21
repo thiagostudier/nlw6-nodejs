@@ -2,10 +2,13 @@ import "reflect-metadata";
 import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
 import { router } from "./routes";
+import cors from "cors";
 
 import "./database"
   
 const app = express();
+// HABILITAR CORS
+app.use(cors());
 // HABILITAR JSON
 app.use(express.json());
 // HABILITAR ROTAS
