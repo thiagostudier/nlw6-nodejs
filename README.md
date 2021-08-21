@@ -2,6 +2,11 @@
 
 Bootcamp da Rocketseat de Node.js
 
+## Esboço do projeto
+
+Sistema que permite o cadastro de Usuários, Tags e Elogios.
+É possível vincular tags
+
 ## Comandos para o desenvolvimento
 
 Instalando ambiente
